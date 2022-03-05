@@ -9,7 +9,7 @@ jobs:
       - name: Building Docker Image
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
-          # 下方的name格式为：Docker Hub ID/xx
-          name: lolp18/xx
+          # 下方的name格式为：Docker Hub ID/god
+          name: lolp18/god
           username: '${{ secrets.DOCKER_USERNAME }}'
           password: '${{ secrets.DOCKER_PASSWORD }}'
